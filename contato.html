@@ -101,25 +101,11 @@ scale=1.0">
   <!--Seção estudantes é a parte do paragrafo 2 da página-->
   <section class="estudante">
               <!--Seção rodapé é a parte final da paragrafo 3 da página-->
-        
-
-              <script>
-                let currentSlide = 0;
-                const slides = document.querySelectorAll('.slide');
-
-                function changeSlide(direction) {
-                  slides[currentSlide].classList.remove('active');
-                  currentSlide += direction;
-                  if (currentSlide >= slides.length) {
-                    currentSlide = 0;
-                  }
-                  if (currentSlide < 0) {
-                    currentSlide = slides.length - 1;
-                  }
-
-                  slides[currentSlide].classList.add('active');
-                }
-              </script>
+          <footer class="escola">
+    <img class="logo_rodape" src="helldiverslogo.png" alt="Logo da Escola">
+    <h2 class="escola-título">Contatos<a class="link" href=""></a></h2>
+    <p></p>
+  </footer>
 
 </body>
 
