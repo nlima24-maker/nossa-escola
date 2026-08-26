@@ -115,7 +115,9 @@ header {
 
 .sociais img {
   height: 60px;
-  width: auto;
+  width: 60px; 
+  display: inline-block;
+  justify-content: space-around;
 }
 
 .banner1 {
